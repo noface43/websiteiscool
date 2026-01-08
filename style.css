@@ -1,0 +1,20 @@
+div {
+    height: 800px;
+    width: 10000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border: solid black;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    
+    display: block;
+    margin: 0 auto;
+}
