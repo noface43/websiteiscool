@@ -42,7 +42,7 @@ body {
     gap: 10px;
     flex-direction: column;
     box-shadow:
-     0 0 10px white;
+     0 0 40px white;
 
 }
 
@@ -102,7 +102,7 @@ button:hover {
     border-radius: 10px;
     gap: 1px;
     flex-direction: column;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 40px white;
 }
 
 h3 {
@@ -156,5 +156,5 @@ h5 {
     border-radius: 10px;
     gap: 1px;
     flex-direction: column;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 40px white;
 }
