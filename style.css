@@ -31,14 +31,14 @@ body {
     background-color: rgb(255, 255, 255, 0.8);
     margin:183px ;
     height: 450px;
-    width: 400px;
+    width: 350px;
     padding: 15px;
     display: grid;
     align-items: flex-end;
     place-items: center;
     border: 10px;
     border-color: black;
-    border-radius: 10px;
+    border-radius: 50px;
     gap: 10px;
     flex-direction: column;
     box-shadow:
@@ -57,6 +57,7 @@ button {
     font-size: 23px ;
     box-shadow:
     0 0 10px black;
+    animation: bounce 0.3s;
 
     transition: 0.3s;
 }
@@ -72,7 +73,8 @@ h1 {
 
 audio {
     margin: -560px auto;
-    filter: drop-shadow(0px 0px 30px white);
+    filter: drop-shadow(0px 0px 30px white) opacity(80%);
+    animation: bounce 0.3s;
 }
 
 h4 {
@@ -101,7 +103,7 @@ button:hover {
     place-items: center;
     border: 10px;
     border-color: black;
-    border-radius: 10px;
+    border-radius: 50px;
     gap: 1px;
     flex-direction: column;
     box-shadow: 0 0 40px white;
@@ -156,7 +158,7 @@ h5 {
     place-items: center;
     border: 10px;
     border-color: black;
-    border-radius: 10px;
+    border-radius: 50px;
     gap: 1px;
     flex-direction: column;
     box-shadow: 0 0 40px white;
@@ -168,4 +170,20 @@ h5 {
     margin: 760px;
     position: absolute;
     filter: drop-shadow(0px 0px 10px white);
+    animation: hover-pfp 2s infinite ease-in-out;
 }
+
+@keyframes bounce {
+    10% {scale: 10%;}
+    50% {scale: 110%;}
+    100% {scale:100%;}
+
+
+}
+
+@keyframes hover-pfp {
+    0% {margin: 760px}
+    50% {margin: 755px}
+    100% {margin: 760px}
+}
+
