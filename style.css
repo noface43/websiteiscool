@@ -46,7 +46,7 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 20px;
-    padding: 20px 30px;
+    padding: 20px 80px;
     opacity: 1;
     font-size: 23px;
     box-shadow: 0 0 10px black;
@@ -215,7 +215,7 @@ h5 {
     gap: 30px;
     flex-direction: column;
     position: absolute;
-    margin-left: 900px;
+    margin-left: 880px;
     position:absolute;
 }
 
