@@ -242,7 +242,7 @@ h5 {
 }
 
 #Pback:hover {
-    transform: scale(1.03); transform: rotatex(10deg) rotateY(10deg) translatez(50px) translateY(-10px);
+    transform: scale(1.03); transform: rotateX(10deg) rotateY(10deg) translateZ(50px) translateY(-10px);
 }
 
 #Top {
@@ -268,10 +268,18 @@ h5 {
     background-color: rgb(255, 255, 255, 0.8);
     height: 50px;
     width: 300px;
-    position: fixed;
+    position: absolute;
     margin: 140px;
     box-shadow: 0 0 40px white;
     backdrop-filter: blur(10px);
     margin-right: 590px;
     border-radius: 10px
 }
+
+#backmenu {
+    position: absolute;
+    margin: 170px;
+    margin-left: 400px;
+    filter: drop-shadow(0px 0px 500px gray);
+}
+
